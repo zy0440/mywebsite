@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: rgb(117, 163, 163);
+            color: black;
+        }
+
+        header {
+            background: gray;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: rgb(44, 43, 43);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .about-container img {
+            width: 250px;
+            border-radius: 40px;
+        }
+
+        .achievement-card {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .achievement-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ZYMON'S PORTFOLIO</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#achievement">Achievement</a>
+        <a href="#contacts">Contacts</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about-container">
+            <img src="me.jpg" alt="Me">
+
+            <p>Hi! I'm Zymon Justine S. Menasalvas, you can call me Zy, I'm 18 yrs old. 1st year college (single). </p>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+
+        <div class="achievement-card">
+            <img src="achievement.jpg" alt="Achievement Image">
+
+            <h3>University Week</h3>
+            <p>I am proud to share that our team emerged as MLBB Esports Champions during this year’s University Week. Through teamwork, determination, and passion, we brought home the title and represented our courses with pride.</p>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <p>Email: <b>g23-0613-387@gma.uphsl.edu.ph</b></p>
+        <p>Facebook: <b>Zymon Justine</b></p>
+        <p>Instagram: <b>@zymonn_says</b></p>
+    </section>
+
+    <footer>
+        <p>FINAL PROJECT - INTRODUCTION TO COMPUTING</p>
+    </footer>
+
+</body>
+</html>
